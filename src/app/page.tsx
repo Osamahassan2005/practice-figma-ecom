@@ -1,7 +1,7 @@
 import React from 'react'
-import Upperheader, { Header } from './components/header'
+
 import CategoriesSidebar from './components/CategoriesSidebar'
-import ProductCard from './components/ProductCard'
+
 import ImageSlider from './components/ImageSlider';
 import ProductList from './components/ProductList';
 import CountdownStatic from './components/CountdownStatic';
@@ -43,6 +43,7 @@ export default function Home() {
       <CountdownStatic />
       </div>
       <Category />
+      
             <div className="flex flex-wrap justify-center lg:justify-between gap-6 mt-6 px-4 g:px-0">
                 <CategoryCard  image="/slider/images/mobile.png" heading="Phones" />
                 <CategoryCard image="/slider/images/computer.png" heading="Computers" />

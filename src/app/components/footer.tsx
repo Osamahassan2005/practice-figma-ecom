@@ -2,7 +2,7 @@ import React from 'react'
 import { FaAppStore, FaFacebookF, FaInstagram, FaLinkedinIn } from 'react-icons/fa'
 import { FiTwitter } from 'react-icons/fi'
 import { ImQrcode } from 'react-icons/im'
-import { IoLogoGooglePlaystore, IoSendOutline } from 'react-icons/io5'
+import { IoLogoGooglePlaystore} from 'react-icons/io5'
 
 const Footer = () => {
   return (

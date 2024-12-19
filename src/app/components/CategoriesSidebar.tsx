@@ -5,17 +5,17 @@ const CategoriesSidebar = () => {
   const categories = [
    
     "Electronics",
-    "Home & Lifestyle",
+    "Home and Lifestyle",
     "Medicine",
-    "Sports & Outdoor",
-    "Baby's & Toys",
-    "Groceries & Pets",
-    "Health & Beauty",
+    "Sports and Outdoor",
+    "Baby's and Toys",
+    "Groceries and Pets",
+    "Health and Beauty",
   ];
 
   return (
-    <div className="pt-[40px]  pl-[165px]   ">
-    <div className=" w-[240px] h-[1444px]  ">
+    <div className="pt-[40px]  pl-[165px]">
+    <div className=" w-[240px] h-[1444px]">
       <h2 className="text-lg  mb-4 flex"> Women's Fashion <FaGreaterThan className="font-light mx-4 pt-2"/>
       </h2>
       <h2 className="text-lg  mb-4 flex"> Men's Fashion <FaGreaterThan className="font-light  mx-4 pt-2"/></h2>
